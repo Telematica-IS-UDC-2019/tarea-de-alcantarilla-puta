@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <StackLayout>
+            <Label Text="0" TextColor="White" FontSize="Header" HorizontalOptions="End"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" BackgroundColor="Black" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="1" Padding="-3" >
+            <Label Text="C" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="+/-" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="%" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="DIV" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FFD300"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" BackgroundColor="Black"  VerticalOptions="FillAndExpand" Spacing="1" Padding="-2" >
+            <Label Text="7" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="8" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="9" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="X" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FFD300"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" BackgroundColor="Black"  VerticalOptions="FillAndExpand" Spacing="1" Padding="-3" >
+            <Label Text="4" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="5" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="6" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="-" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FFD300"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" BackgroundColor="Black"  VerticalOptions="FillAndExpand" Spacing="1" Padding="-2" >
+            <Label Text="3" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="+" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FFD300"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" BackgroundColor="Black"  VerticalOptions="FillAndExpand" Spacing="1" Padding="-3" >
+            <Label Text="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="." HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray"></Label>
+            <Label Text="=" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FFD300"></Label>
+        </StackLayout>
+
+
+
+
+
+    </StackLayout>
+
+
+</ContentPage>
